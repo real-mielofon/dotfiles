@@ -1,6 +1,7 @@
 #!/bin/bash
 
 brew install git
+brew install swot
 brew install zsh-syntax-highlighting powerlevel10k fzf zoxide thefuck fd eza
 brew install iterm2 tmux 
 brew install neovim
