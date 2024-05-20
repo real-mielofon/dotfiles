@@ -1,7 +1,5 @@
 #!/bin/bash
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 brew install git
 brew install zsh-syntax-highlighting powerlevel10k zfs zoxide thefuck fd
 brew install iterm2 tmux 
