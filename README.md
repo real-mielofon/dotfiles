@@ -9,6 +9,7 @@
 
 ```
 brew install zsh
+chsh -s $(which zsh)
 ```
 
 ## Install [o-my-zsh](https://arc.net/l/quote/atxgknrq)
