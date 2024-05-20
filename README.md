@@ -1,3 +1,22 @@
+# Pre install
+## Install brew
+
+'''
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+'''
+
+## Install [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos)
+
+'''
+brew install zsh
+'''
+
+## Install [o-my-zsh](https://arc.net/l/quote/atxgknrq)
+
+'''
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+'''
+
 # stow
 
 stow nvim
