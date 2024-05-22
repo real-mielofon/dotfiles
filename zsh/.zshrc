@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/opt/homebrew/bin:/HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -396,13 +396,13 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # If command execution time above min. time, plugins will not output time.
-ZSH_COMMAND_TIME_MIN_SECONDS=0
+# ZSH_COMMAND_TIME_MIN_SECONDS=0
 
 # Message to display (set to "" for disable).
-ZSH_COMMAND_TIME_MSG="Execution time: %s sec"
+# ZSH_COMMAND_TIME_MSG="Execution time: %s sec"
 
 # Message color.
-ZSH_COMMAND_TIME_COLOR="cyan"
+# ZSH_COMMAND_TIME_COLOR="cyan"
 
 # Exclude some commands
 #ZSH_COMMAND_TIME_EXCLUDE=(vim mcedit)
